@@ -104,3 +104,7 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+dark_mode:
+  enable: true
+  default: auto
