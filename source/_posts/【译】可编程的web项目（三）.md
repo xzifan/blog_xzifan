@@ -8,7 +8,7 @@ tags:
 本文将讲到如何使用[Flask-RESTFUL](http://www.pythondoc.com/Flask-RESTful/index.html)，一个Flask的扩展，实现REST API。我们也将讨论如何在你的开发过程中有条理地处理超媒体（hypermedia）
 
 ## Flask-Restful 简介  
-在练习的第一部分，我们将介绍如何使用RESTful扩展包。为此我们回到第一篇文章中的[sensorhub例子](https://raw.githubusercontent.com/XCifer/Programmable-Web-Project/master/Exercise_1_IntroductiontoWebDevelopment/appendix/app_ex1_t5.py)。简单回顾一下，我们在sensorhub的例子中主要有4个概念：测量 measurements，传感器 sensors， 传感器位置 sensor locations 和 部署参数 deployment configurations。接下来我们将把这些概念变成API的资源（resources）。
+在练习的第一部分，我们将介绍如何使用RESTful扩展包。为此我们回到第一篇文章中的[sensorhub例子](https://raw.githubusercontent.com/xzifan/Programmable-Web-Project/master/Exercise_1_IntroductiontoWebDevelopment/appendix/app_ex1_t5.py)。简单回顾一下，我们在sensorhub的例子中主要有4个概念：测量 measurements，传感器 sensors， 传感器位置 sensor locations 和 部署参数 deployment configurations。接下来我们将把这些概念变成API的资源（resources）。
 
 ### 安装
 这里我们需要用到新的Python模块。启动之前创建的虚拟环境然后输入以下命令：
@@ -90,7 +90,7 @@ api.add_resource(SensorItem, "/api/sensors/<sensor>/")
 >  
 > ## 资源“库存管理”
 > **学习目标：** 使用Flask-RESTful用两种方法实现一个简单的集合类型资源。
-> **开始之前：** 你可能需要之前相关练习的[代码](https://raw.githubusercontent.com/XCifer/Programmable-Web-Project/master/Exercise_1_IntroductiontoWebDevelopment/answer_ex1_t6.py)。具体来说，POST方法会与`"/products/add"`路径下的view函数相类似。  
+> **开始之前：** 你可能需要之前相关练习的[代码](https://raw.githubusercontent.com/xzifan/Programmable-Web-Project/master/Exercise_1_IntroductiontoWebDevelopment/answer_ex1_t6.py)。具体来说，POST方法会与`"/products/add"`路径下的view函数相类似。  
 > **资源：产品集合ProductCollection** 
 > - 路径：`"/api/products/"`  
 > - 方法：  

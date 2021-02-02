@@ -357,7 +357,7 @@ Mason还为超媒体控件定义了一些额外的属性。其中“method”是
 
 ### API 地图
 设计API的最后一项业务是创建一个包含所有资源和超媒体控件的完整地图。在这个状态图中，资源是状态，超媒体控件是转换。一般来说，只有GET方法适用于从一种状态移动到另一种状态，因为其他方法不会返回资源表达。我们已经提出了其他方法作为箭头回到相同的状态。这是完整地图： 
-![MusicMeta API state diagram](https://raw.githubusercontent.com/XCifer/Programmable-Web-Project/master/Exercise_2_APIDesign/appendix/musicmeta_api_state_diagram.png)
+![MusicMeta API state diagram](https://raw.githubusercontent.com/xzifan/Programmable-Web-Project/master/Exercise_2_APIDesign/appendix/musicmeta_api_state_diagram.png)
 
 - 注意 1：地图中每个盒子颜色的代码仅用于教育目的，以显示数据库中的数据是如何连接到资源 - 你不需要在现实生活或自己的项目中实现这样的细节。
 
