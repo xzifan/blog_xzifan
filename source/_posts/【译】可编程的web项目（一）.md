@@ -2,6 +2,7 @@
 layout: blog
 title: 【译】可编程的web项目（一）
 date: 2019-07-06 
+index_img: /images/pwp1.png
 tags:
 ---
 
