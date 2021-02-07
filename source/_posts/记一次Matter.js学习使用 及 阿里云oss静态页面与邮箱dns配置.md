@@ -9,9 +9,10 @@ tags:
 
 {% codepen xzifan RwoaYOo dark js 800px 800px %} 
 
-## 阿里云oss
-域名服务器需要设置为阿里云默认dns服务器，   
-同时添加域名解析记录：  
+## 阿里云oss静态页面与邮箱dns配置
+1. 域名服务器需要设置为阿里云默认dns服务器，   
+2. 在oss bucket 基础设置中设置首页和404页
+3. 为邮箱和静态页面添加域名解析记录：  
 <table>
     <tr>
         <td>主机记录</td>
@@ -24,7 +25,7 @@ tags:
         <td>@</td>
         <td>CNAME</td>
         <td>默认</td>
-        <td>xxx.oss-cn-xxx.aliyuncs.com</td>
+        <td>Bucket地址，如 xxx.oss-cn-xxx.aliyuncs.com</td>
         <td>10分钟</td>
         <td></td>
     </tr>
@@ -32,7 +33,7 @@ tags:
         <td>mail</td>
         <td>CNAME</td>
         <td>默认</td>
-        <td>邮箱服务器,如mail.mxhichina.com</td>
+        <td>邮箱服务器,如 mail.mxhichina.com</td>
         <td>10分钟</td>
         <td></td>
     </tr>
