@@ -19,7 +19,6 @@ tags:
         <td>解析线路</td>
         <td>记录值</td>
         <td>TTL</td>
-        <td></td>
     </tr>
     <tr>
         <td>@</td>
