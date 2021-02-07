@@ -10,16 +10,17 @@ tags:
 {% codepen xzifan RwoaYOo dark js 800px 800px %} 
 
 ## 阿里云oss
-域名服务器需要设置为阿里云默认dns服务器，  
+域名服务器需要设置为阿里云默认dns服务器，   
 同时添加域名解析记录：  
-主机记录 | 记录类型 | 解析线路 | 记录值 | TTL  
+主机记录 | 记录类型 | 解析线路 | 记录值 | TTL   
 --- | --- | --- |--- |--- 
 @ | CNAME | 默认 | xxx.oss-cn-xxx.aliyuncs.com | 10分钟  
 mail | CNAME| 默认 | 邮箱服务器,如mail.mxhichina.com | 10分钟  
 smtp | CNAME| 默认 | 对应smtp, smtp.mxhichina.com | 10分钟  
 pop3 | CNAME| 默认 | 对应pop3, pop3.mxhichina.com | 10分钟  
 @	| MX	| 默认 | 对应优先MX, mxn.mxhichina.com \| 5 (mx优先级) | 10分钟
-@	| MX	| 默认 | 对应MX, mxw.mxhichina.com \| 10 (mx优先级) | 10分钟
+@	| MX	| 默认 | 对应MX, mxw.mxhichina.com \| 10 (mx优先级) | 10分钟    
+
 ### 参考资料:  
 [Introduction to Matter.js - The Nature of Code](https://www.youtube.com/watch?v=urR596FsU68&ab_channel=TheCodingTrain)
 [BRM.IO](https://brm.io/matter-js/)
