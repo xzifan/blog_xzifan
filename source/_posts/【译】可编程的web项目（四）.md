@@ -2,7 +2,7 @@
 layout: blog
 title: 【译】可编程的web项目（四）
 date: 2019-08-02
-tags:
+tags: pwp
 ---
 # 学习目标
 在本练习中，你将学习如何使用Python或通过在网站中嵌入客户端来实现一个RESTful风格的客户端。

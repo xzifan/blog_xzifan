@@ -2,7 +2,7 @@
 layout: blog
 title: 【译】可编程的web项目（二）
 date: 2019-07-09
-tags:
+tags: pwp
 ---
 # API 设计
 写在开头： 本译文源自芬兰奥卢大学Ivan Sanchez的课程Programmable web project，由三位在奥卢大学交换生分享译制，如有措辞不当或任何不妥，请前辈们多多在评论中指点。原课程[programmable-web-project](https://lovelace.oulu.fi/ohjelmoitava-web/programmable-web-project-spring-2019)。课程中的练习原本有上传自动检验，但需要学校账号选课登陆，在此直接分享答案。  

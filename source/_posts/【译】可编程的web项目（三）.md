@@ -2,7 +2,7 @@
 layout: blog
 title: 【译】可编程的web项目（三）
 date: 2019-07-15
-tags:
+tags: pwp
 ---
 # 用FLASK实现REST API
 本文将讲到如何使用[Flask-RESTFUL](http://www.pythondoc.com/Flask-RESTful/index.html)，一个Flask的扩展，实现REST API。我们也将讨论如何在你的开发过程中有条理地处理超媒体（hypermedia）
